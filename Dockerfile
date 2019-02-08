@@ -1,4 +1,4 @@
-FROM docker/compose
+FROM docker/compose:1.23.2
 RUN apk -v --update add \
         python \
         py-pip \
